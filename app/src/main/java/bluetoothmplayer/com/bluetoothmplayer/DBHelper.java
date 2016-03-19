@@ -62,7 +62,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 " Values ('64:77:91:AB:D9:7E','64:77:91:AB:D9:7E');");
         DB.execSQL("INSERT INTO " +
                 relaytableName +
-                " Values ('D8:31:CF:F9:5F:CA','D8:31:CF:F9:5F:CA');");
+                " Values ('D8:31:CF:F9:5F:CA','D8:31:CF:F9:5F:CAAAAAAAAAAAAAA');");
         DB.execSQL("INSERT INTO " +
                 relaytableName +
                 " Values ('64:SJ:JS','D8:31:CF:F9:5F:CA');");
